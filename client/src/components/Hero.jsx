@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { assets, cityList } from '../assets/assets'
 
 const Hero = () => {
-    const [pickupLocation, setPickupLocation] = useState('')
+    const [pickupCategory, setPickupCategory] = useState('')
 
 
 
@@ -17,12 +17,12 @@ const Hero = () => {
 
             <div className='flex flex-col md:flex-row items-start md:items-center gap-10 min-md:ml-8'>
                 <div className='flex flex-col items-start gap-2'>
-                    <select required value={pickupLocation} onChange={(e)=>setPickupLocation(e.target.value)}>
-                        <option value="">Pickup Location</option>
+                    <select required value={pickupCategory} onChange={(e)=>setPickupCategory(e.target.value)}>
+                        <option value="">Choose Your Style</option>
                         {cityList.map((city)=> <option key={city} value={city}>{city}</option>)}
                     </select>
 
-                    <p className='px-1 text-sm text-grey-500'>{pickupLocation? pickupLocation : 'Please Select Location'}</p>
+                    <p className='px-1 text-sm text-grey-500'>{pickupCategory? pickupCategory : 'Please Select Your Style'}</p>
 
                 </div>
                 <div className='flex flex-col items-start gap-2'>
