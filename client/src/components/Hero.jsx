@@ -33,15 +33,12 @@ const Hero = () => {
                     <lable htmlFor='return-date'>Return Date</lable>
                     <input type="date"  id="return-date" className='text-sm text-grey-500' required />
                 </div>
-
-                <button className='flex itemss-center justify-center gap-1 px-9 py-3 max-sm:mt-4 bg-primary hover:bg-primary-dull text-white rounded-full cursor-pointer'>
+            </div>
+            
+            <button className='flex itemss-center justify-center gap-1 px-9 py-3 max-sm:mt-4 bg-primary hover:bg-primary-dull text-white rounded-full cursor-pointer'>
                     <img src={assets.search_icon} alt="search" className='brightness-300' />
                     Search
                 </button>
-
-                
-
-            </div>
 
         </form>
 
