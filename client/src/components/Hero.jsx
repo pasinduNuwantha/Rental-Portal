@@ -26,7 +26,7 @@ const Hero = () => {
 
                 </div>
                 <div className='flex flex-col items-start gap-2'>
-                    <lable htmlFor='pickup-date'>Pick up Date</lable>
+                    <lable htmlFor='reservation-date'>Reservation Date</lable>
                     <input type="date"  id="pickup-date" min={new Date().toISOString().split('T')[0] } className='text-sm text-grey-500' required />
                 </div>
                 <div className='flex flex-col items-start gap-2'>

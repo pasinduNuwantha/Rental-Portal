@@ -40,6 +40,9 @@ import outfit_image1 from "./outfit_image1.png"
 import outfit_image2 from "./outfit_image2.png"
 import outfit_image3 from "./outfit_image3.png"
 import outfit_image4 from "./outfit_image4.png"
+import dress1_2 from "./dress1_2.WEBP"
+import dress1_3 from "./dress1_3.WEBP"
+import dress1_4 from "./dress1_4.WEBP"
 
 export const cityList = ['All Ctegories','Party Dresses & Suits', 'Evening Gowns', 'Cocktail Dresses', 'Wedding & Bridal Wear','Men’s Tuxedos & Suits']
 
@@ -85,7 +88,10 @@ export const assets = {
     user_profile,
     outfit_image2,
     outfit_image3,
-    outfit_image4
+    outfit_image4,
+    dress1_2,
+    dress1_3,
+    dress1_4
 }
 
 export const menuLinks = [
