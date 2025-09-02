@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <div className='h- screen flex flex-col items-center justify-center gap-14 bg-light text-center'>
 
-        <h1 className='text-4xl md:text-5xl front-semibold'>
+        <h1 className='text-4xl md:text-5xl front-semibold mt-10'>
             Luxury Outfits for Rent
         </h1>
 

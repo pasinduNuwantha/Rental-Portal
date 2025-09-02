@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import OutfitDetails from './pages/OutfitDetails'
 import Outfits from './pages/Outfits'
 import MyBookings from './pages/MyBookings'
+import Footer from './components/Footer'
 
 const App = () => { 
   const [showLogin,setShowLogin] = useState(false)
@@ -20,6 +21,9 @@ const App = () => {
         <Route path='/outfits' element = {<Outfits/>}/>
         <Route path='/my-bookings' element = {<MyBookings/>}/>
       </Routes>
+
+      {!isOwnerPath && <Footer/>}
+     
 
 
 

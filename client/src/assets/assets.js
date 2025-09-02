@@ -109,7 +109,7 @@ export const dummyUserData = {
   "image": user_profile,
 }
 
-export const dummyCarData = [
+export const dummyOutfitData = [
     {
         "_id": "82fc8b5d9a0a2c3b4b79d5e7",
         "owner": "55be9d8a8a2a4f9f9a12458b",
@@ -183,7 +183,7 @@ export const dummyCarData = [
 export const dummyMyBookingsData = [
     {
         "_id": "68482bcc98eb9722b7751f70",
-        "car": dummyCarData[0],
+        "car": dummyOutfitData[0],
         "user": "6847f7cab3d8daecdb517095",
         "owner": "6847f7cab3d8daecdb517095",
         "pickupDate": "2025-06-13T00:00:00.000Z",
@@ -194,7 +194,7 @@ export const dummyMyBookingsData = [
     },
     {
         "_id": "68482bb598eb9722b7751f60",
-        "car": dummyCarData[1],
+        "car": dummyOutfitData[1],
         "user": "6847f7cab3d8daecdb517095",
         "owner": "67fe3467ed8a8fe17d0ba6e2",
         "pickupDate": "2025-06-12T00:00:00.000Z",
@@ -205,7 +205,7 @@ export const dummyMyBookingsData = [
     },
     {
         "_id": "684800fa0fb481c5cfd92e56",
-        "car": dummyCarData[2],
+        "car": dummyOutfitData[2],
         "user": "6847f7cab3d8daecdb517095",
         "owner": "67fe3467ed8a8fe17d0ba6e2",
         "pickupDate": "2025-06-11T00:00:00.000Z",
@@ -216,7 +216,7 @@ export const dummyMyBookingsData = [
     },
     {
         "_id": "6847fe790fb481c5cfd92d94",
-        "car": dummyCarData[3],
+        "car": dummyOutfitData[3],
         "user": "6847f7cab3d8daecdb517095",
         "owner": "6847f7cab3d8daecdb517095",
         "pickupDate": "2025-06-11T00:00:00.000Z",

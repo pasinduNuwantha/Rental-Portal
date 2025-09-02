@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from './Title'
-import { assets, dummyCarData } from '../assets/assets'
+import { assets, dummyOutfitData } from '../assets/assets'
 import OutfitCard from './OutfitCard'
 import { useNavigate } from 'react-router-dom'
 
@@ -13,7 +13,7 @@ const FeaturedSection = () => {
         </div>
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-18'>
             {
-                dummyCarData.slice(0,6).map((outfit) =>(
+                dummyOutfitData.slice(0,6).map((outfit) =>(
                     <div key = { outfit._id}>
                         <OutfitCard outfit={outfit}/>
                     </div>
