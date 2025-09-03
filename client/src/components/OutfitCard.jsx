@@ -23,7 +23,7 @@ const OutfitCard = ({outfit}) => {
             <div className='flex justify-between items-starts mb-2'>
                 <div>
                     <h3 className='text-lg font-medium'>{outfit.brand} {outfit.model}</h3>
-                    <p className='texxt-muted-foreground text-sm'>{outfit.category} • {outfit.year} </p>
+                    <p className='texxt-muted-foreground text-sm'>{outfit.category} • {outfit.condition} </p>
                 </div>
             </div>
             <div className='mt-4 grid grid-cols-2 gap-y-2 text-gray-600'>
@@ -32,7 +32,7 @@ const OutfitCard = ({outfit}) => {
                     <span>{outfit.size } Size </span>
                 </div>
                 <div className='flex items-center text-sm text-muted-foreground'>
-                    <img src={assets.color_icon} alt="" className='h-4 mr-2'/>
+                    <img src={assets.shirt_icon} alt="" className='h-4 mr-2'/>
                     <span>{outfit.color } Color</span>
                 </div>
                 <div className='flex items-center text-sm text-muted-foreground'>
@@ -41,7 +41,7 @@ const OutfitCard = ({outfit}) => {
                 </div>
                 <div className='flex items-center text-sm text-muted-foreground'>
                     <img src={assets.location_icon} alt="" className='h-4 mr-2'/>
-                    <span>{outfit.location } Location</span>
+                    <span>{outfit.location } </span>
                 </div>
 
             </div>

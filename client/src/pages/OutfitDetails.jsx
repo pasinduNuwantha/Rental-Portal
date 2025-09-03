@@ -91,13 +91,13 @@ const OutfitDetails = () => {
           <div className="space-y-6">
             <div>
               <h1 className='text-3xl font-bold'>{outfit.brand} {outfit.model}</h1>
-              <p className='text-gray-500 text-lg'>{outfit.category} • {outfit.year} </p>
+              <p className='text-gray-500 text-lg'>{outfit.category} • {outfit.condition} </p>
             </div>
             <hr className='border-borderColor my-6' />
             <div className='grid grid-cols-2 sm:grid-cols-4 gap-4'>
-              {[{ icon: assets.users_icon, text: `${outfit.color} color` },
-              { icon: assets.material_icon, text: outfit.fuel_type },
-              { icon: assets.car_icon, text: outfit.transmission },
+              {[{ icon: assets.shirt_icon, text: `${outfit.color} color` },
+              { icon: assets.material_icon, text: outfit.material },
+              { icon: assets.users_icon, text: outfit.size },
               { icon: assets.location_icon, text: outfit.location }].map(({ icon, text }) => (
                 <div key={text} className='flex flex-col items-center bg-light p-4 rounded-lg'>
                   <img src={icon} alt="" className='h-5 mb-2' />
