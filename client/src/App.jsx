@@ -5,7 +5,8 @@ import Home from './pages/Home'
 import OutfitDetails from './pages/OutfitDetails'
 import Outfits from './pages/Outfits'
 import MyBookings from './pages/MyBookings'
-import Footer from './components/Footer'
+import Footer from './components/pasindu/Footer'
+
 
 const App = () => { 
   const [showLogin,setShowLogin] = useState(false)
