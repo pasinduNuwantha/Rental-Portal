@@ -11,8 +11,8 @@ import material_icon from "./material_icon.jpg"
 import location_icon from "./location_icon.svg"
 import color_icon from "./color_icon.jpg"
 import addIcon from "./addIcon.svg"
-import carIcon from "./carIcon.svg"
-import carIconColored from "./carIconColored.svg"
+import shirt_icon from "./shirt_icon.jpg"
+import shirtIconColored from "./shirtIconColored.jpg"
 import dashboardIcon from "./dashboardIcon.svg"
 import dashboardIconColored from "./dashboardIconColored.svg"
 import addIconColored from "./addIconColored.svg"
@@ -61,8 +61,8 @@ export const assets = {
     location_icon,
     color_icon,
     addIcon,
-    carIcon,
-    carIconColored,
+    shirt_icon,
+    shirtIconColored,
     dashboardIcon,
     dashboardIconColored,
     addIconColored,
@@ -102,8 +102,8 @@ export const menuLinks = [
 
 export const ownerMenuLinks = [
     { name: "Dashboard", path: "/owner", icon: dashboardIcon, coloredIcon: dashboardIconColored },
-    { name: "Add car", path: "/owner/add-car", icon: addIcon, coloredIcon: addIconColored },
-    { name: "Manage Cars", path: "/owner/manage-cars", icon: carIcon, coloredIcon: carIconColored },
+    { name: "Add Outfit", path: "/owner/add-outfit", icon: addIcon, coloredIcon: addIconColored },
+    { name: "Manage Outfits", path: "/owner/manage-outfits", icon: shirt_icon, coloredIcon: shirtIconColored },
     { name: "Manage Bookings", path: "/owner/manage-bookings", icon: listIcon, coloredIcon: listIconColored },
 ]
 
@@ -234,7 +234,7 @@ export const dummyMyBookingsData = [
 ]
 
 export const dummyDashboardData = {
-    "totalCars": 4,
+    "totalOutfits": 4,
     "totalBookings": 2,
     "pendingBookings": 0,
     "completedBookings": 2,

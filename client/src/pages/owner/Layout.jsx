@@ -1,7 +1,7 @@
 import React from 'react'
-import NavbarOwner from '../../components/pasindu/NavbarOwner'
-import Sidebar from '../../components/pasindu/Sidebar'
+import NavbarOwner from '../../components/pasindu/owner/NavbarOwner'
 import { Outlet } from 'react-router-dom'
+import Sidebar from '../../components/pasindu/owner/Sidebar'
 
 const Layout = () => {
   return (
