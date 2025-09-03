@@ -170,7 +170,7 @@ export const dummyOutfitData = [
     {
          "_id": "82fc8b5d9a0a2c3b4b79d5f0",
         "owner": "55be9d8a8a2a4f9f9a12458b",
-        "brand": "Oscar de la Renta",
+        "brand": "Oscar ",
         "model": "Glamorous Red Carpet Dress",
         "image": outfit_image4,
         "condition": "2023",
