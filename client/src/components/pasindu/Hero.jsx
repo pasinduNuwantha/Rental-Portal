@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import { assets, cityList } from '../assets/assets'
+import { assets, cityList } from '../../assets/assets'
+
 
 const Hero = () => {
     const [pickupCategory, setPickupCategory] = useState('')

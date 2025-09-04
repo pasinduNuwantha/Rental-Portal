@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import Title from '../components/Title'
+import Title from '../components/pasindu/Title'
 import { assets, dummyOutfitData } from '../assets/assets'
-import OutfitCard from '../components/OutfitCard'
+import OutfitCard from '../components/pasindu/OutfitCard'
 
 const Outfits = () => {
   const [input,setInput] = useState('')

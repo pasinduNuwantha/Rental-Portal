@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { assets, dummyMyBookingsData } from '../assets/assets'
-import Title from '../components/Title'
+import Title from '../components/pasindu/Title'
 
 const MyBookings = () => {
 

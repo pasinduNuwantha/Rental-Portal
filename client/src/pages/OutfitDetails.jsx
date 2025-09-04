@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { assets, dummyOutfitData } from '../assets/assets'
-import Loader from '../components/Loader'
+import Loader from '../components/pasindu/Loader'
 
 const OutfitDetails = () => {
   const { id } = useParams()
